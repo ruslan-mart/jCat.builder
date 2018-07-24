@@ -1,0 +1,30 @@
+{
+  "name": "jcat-builder",
+  "version": "0.0.1",
+  "description": "Builder for a jCat library",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/core": "^7.0.0-beta.54",
+    "@babel/preset-env": "^7.0.0-beta.54",
+    "babelify": "^9.0.0",
+    "browserify": "^16.2.2",
+    "mkdirp": "^0.5.1",
+    "sade": "^1.4.1",
+    "uglify-js": "^3.4.5"
+  },
+  "devDependencies": {},
+  "bin": {
+    "jcat-builder": "dist/cli.js"
+  },
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruslan-mart/jCat.builder.git"
+  },
+  "author": "Ruslan Mart",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ruslan-mart/jCat.builder/issues"
+  },
+  "homepage": "https://github.com/ruslan-mart/jCat.builder#readme"
+}
