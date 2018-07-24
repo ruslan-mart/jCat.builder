@@ -26,5 +26,15 @@
   "bugs": {
     "url": "https://github.com/ruslan-mart/jCat.builder/issues"
   },
-  "homepage": "https://github.com/ruslan-mart/jCat.builder#readme"
+  "homepage": "https://github.com/ruslan-mart/jCat.builder#readme",
+  "keywords": [
+    "JavaScript",
+    "jCat",
+    "bundle",
+    "builder",
+    "babel",
+    "commonjs",
+    "require",
+    "npm"
+  ]
 }
