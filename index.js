@@ -37,7 +37,7 @@ module.exports = (options = {}, callback) => {
 	}
 
 	if (compress) {
-		bundle = bundle.replace(/\.\w+/, '.' + DEFAULT_COMPRESS_EXT_PREFIX + '$&');
+		bundle = bundle.replace(/\.\w+$/, '.' + DEFAULT_COMPRESS_EXT_PREFIX + '$&');
 	}
 
 	if (typeof callback !== 'function') {
