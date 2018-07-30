@@ -49,6 +49,7 @@ module.exports = (options = {}, callback) => {
 	});
 
 	builder.transform(babelify, {
+		global: true,
 		presets: [
 			['@babel/preset-env', {
 				exclude: ['transform-typeof-symbol']
